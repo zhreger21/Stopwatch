@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <h2>Stopwatch</h2>
+  <button id='add'>Add New Timer</button>
+  <div id="stopwatch">
+    <h1 id = 'watch0Timer'>00:00:00.00</h1>
+    <div>
+      <h3 contenteditable="true">Stopwatch 1</h3>
+      <button id="watch0Start" onclick = "startPause(0)">Start</button>
+      <button id="clear" onclick = "watches[0].reset()">Reset</button>
+    </div>
+  </div>
+  <script id = "elementAdder" src="stopwatch.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

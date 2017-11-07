@@ -1,0 +1,39 @@
+ body {
+   font-family: Helvetica;
+   background-color: #F08080;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+h1 {
+  font-size: 120px;
+  color: #355C7D;
+  max-height: 30px;
+}
+
+h2 {
+  font-size: 70px;
+  color: #335C7D;
+  max-height: 50px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #000000;
+  max-height: 10px;
+}
+
+#stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  padding: 15px 45px 15px 45px;
+  background-color: #FECEAB;
+  font-size: 15px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
